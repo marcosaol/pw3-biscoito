@@ -1,0 +1,6 @@
+<div class="container">
+  <app-imagem [src]="imagemSrc"></app-imagem>
+  <app-frases [mostrarMensagem]="mostrarMensagem"></app-frases>
+  <app-botao texto="Quebrar biscoito" [desabilitado]="biscoitoQuebrado" (click)="quebrarBiscoito()"></app-botao>
+  <app-botao texto="Reiniciar biscoito" (click)="reiniciarBiscoito()"></app-botao>
+</div>
